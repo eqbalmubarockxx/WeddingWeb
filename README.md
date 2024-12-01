@@ -7,9 +7,11 @@ Tampilan Interaktif: Desain responsif dengan efek visual menarik dan latar belak
 Hitung Mundur Pernikahan: Menghitung waktu menuju hari spesial.
 Ikon Media Sosial: Mudah menghubungi pembuat melalui ikon media sosial.
 Desain Modern: Palet warna elegan dan animasi halus.
+
 🛠️ Teknologi yang Digunakan:
 Frontend: HTML5, CSS3, Bootstrap.
 Interaktivitas: JavaScript untuk fungsi dinamis.
 Database: Terintegrasi dengan Free SQL Database untuk menyimpan data RSVP secara online dan real-time.
+
 📸 Demo:
 Lihat demo langsung dengan klik di sini (Tambahkan URL demo jika tersedia).
