@@ -1,6 +1,6 @@
 # WeddingWeb
 Wedding Invitation Website
-Website undangan pernikahan yang elegan dan interaktif untuk Puput & Asep, dirancang menggunakan HTML, CSS, dan JavaScript. Proyek ini menampilkan fitur-fitur modern seperti:
+Website undangan pernikahan yang elegan dan interaktif, dirancang menggunakan HTML, CSS, dan JavaScript. Proyek ini menampilkan fitur-fitur modern seperti:
 
 ✨ Fitur Utama:
 Tampilan Interaktif: Desain responsif dengan efek visual menarik dan latar belakang animasi video.
