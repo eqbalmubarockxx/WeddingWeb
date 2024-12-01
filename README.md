@@ -11,7 +11,6 @@ Desain Modern: Palet warna elegan dan animasi halus.
 🛠️ Teknologi yang Digunakan:
 Frontend: HTML5, CSS3, Bootstrap.
 Interaktivitas: JavaScript untuk fungsi dinamis.
-Database: Terintegrasi dengan Free SQL Database untuk menyimpan data RSVP secara online dan real-time.
 
 📸 Demo:
 Lihat demo langsung dengan [Klik disini](https://theweddingof-puput-asep.netlify.app) untuk melihat undangan pernikahan.
