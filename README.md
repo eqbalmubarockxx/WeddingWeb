@@ -14,4 +14,5 @@ Interaktivitas: JavaScript untuk fungsi dinamis.
 Database: Terintegrasi dengan Free SQL Database untuk menyimpan data RSVP secara online dan real-time.
 
 📸 Demo:
-Lihat demo langsung dengan klik di sini (Tambahkan URL demo jika tersedia).
+Lihat demo langsung dengan [Klik disini](https://theweddingof-puput-asep.netlify.app) untuk melihat undangan pernikahan.
+
