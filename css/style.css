@@ -1,0 +1,294 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,300;1,400&family=Dancing+Script:wght@400;600;700&family=Playball&display=swap");
+
+.font-dancing {
+  font-family: "Dancing Script", cursive;
+  color: #A594F9;
+}
+
+.font-playball {
+  font-family: "Playball", cursive;
+  color: #A594F9;
+}
+
+* {
+  font-family: "Open Sans", cursive;
+}
+
+/* Backgrounds */
+.bg-berem {
+  background-color: #E5D9F2;
+  /* Light Purple */
+  background: linear-gradient(135deg, #E5D9F2, #F5EFFF);
+}
+
+.card p {
+  color: #ffffff;
+  /* Set text color to the specified purple */
+}
+
+.text-berem {
+  color: #A594F9;
+  /* Medium Purple */
+}
+
+.bg-wakwak {
+  background-color: #F5EFFF;
+  /* Light Blue */
+  color: #A594F9;
+  background: linear-gradient(135deg, #F5EFFF, #CDC1FF);
+  /* Light Blue to Light Lavender Gradient */
+}
+
+.text-wakwak {
+  color: #A594F9;
+  /* Medium Purple */
+}
+
+.bg-fee {
+  background-color: #CDC1FF;
+  /* Light Lavender */
+  background: linear-gradient(135deg, #CDC1FF, #A594F9);
+  /* Light Lavender to Medium Purple Gradient */
+}
+
+.bg-kulit {
+  background-color: #E5D9F2;
+  /* Light Purple */
+}
+
+/* Font Sizes */
+.fs-60 {
+  font-size: 60px;
+}
+
+.fs-45 {
+  font-size: 45px;
+}
+
+.fs-40 {
+  font-size: 40px;
+}
+
+/* Hover Effect */
+.scale {
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.scale:hover {
+  transform: scale(1.05);
+}
+
+/* Buttons */
+.norek {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 640px) {
+  h1 {
+    font-size: 3rem !important;
+  }
+
+  #front-image {
+    display: none;
+  }
+
+  #front-text {
+    position: relative;
+    padding-top: 40%;
+    height: 100vh;
+    background-image: url(../img/purplebg.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  #front-text .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.5);
+    /* Overlay gelap dengan transparansi */
+    z-index: 1;
+  }
+
+  #front-text p,
+  #front-text h1,
+  #front-text small,
+  #front-text button {
+    position: relative;
+    z-index: 2;
+    color: #A594F9;
+    /* Warna teks menjadi putih untuk kontras */
+    text-align: center;
+  }
+
+  #front-text h1 {
+    font-size: 4em;
+    text-shadow: 2px 2px 4px rgba(139, 125, 125, 0.7);
+    /* Bayangan untuk meningkatkan keterbacaan */
+  }
+}
+
+#front-image img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.container.py-5 {
+  position: relative;
+  z-index: 1;
+}
+
+.gif-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../image/weddingday1.gif);
+  /* Ganti dengan path GIF yang ingin digunakan */
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  opacity: 0.5;
+  /* Transparansi untuk membuat GIF tidak terlalu mencolok */
+}
+
+.container .row.position-relative {
+  z-index: 2;
+  color: #A594F9;
+  /* Warna teks agar kontras dengan latar belakang GIF */
+}
+
+.background-gif {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../image/wedding6mb.gif);
+  /* Ganti dengan path GIF yang ingin digunakan */
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  opacity: 0.8;
+  /* Transparansi untuk menjaga keterbacaan teks */
+}
+
+#front-text p small {
+  font-size: 1.5em;
+  /* Ukuran font lebih besar */
+  color: #A594F9;
+  /* Light Blue for contrast */
+  font-weight: bold;
+  /* Tebalkan teks untuk menambah keterbacaan */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  /* Bayangan untuk kontras */
+}
+
+.col-lg-9.col-md-11.col-12 p.fw-light {
+  color: #0037ff; /* Ubah teks menjadi putih untuk kontras */
+  font-size: 1.2em; /* Perbesar sedikit ukuran font */
+  font-style: italic; /* Tambahkan gaya italic untuk kutipan */
+  line-height: 1.5; /* Menambah jarak antar baris agar lebih rapi */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Tambahkan bayangan untuk meningkatkan keterbacaan */
+}
+
+
+.col-lg-9.col-md-11.col-12 p:last-of-type {
+  color: #A594F9;
+  /* Medium Purple */
+  font-weight: bold;
+  /* Bold untuk teks sumber ayat */
+  text-align: right;
+  /* Menempatkan teks sumber di kanan */
+}
+
+/* Pengaturan warna untuk teks salam dan undangan */
+.row.text-center .col-12 h5 {
+  color: #A594F9;
+  /* Medium Purple for warmth and elegance */
+}
+
+.row.text-center .col-12 p {
+  color: #000000;
+  /* Black for soft but elegant contrast */
+  font-size: 1.1em;
+  /* Perbesar sedikit ukuran font agar nyaman dibaca */
+}
+
+/* Pengaturan warna dan font pasangan mempelai */
+.font-dancing.text-light.fs-60 {
+  color: #A594F9 !important;
+  /* Medium Purple */
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+  /* Bayangan untuk meningkatkan keterbacaan */
+}
+
+.row.text-center .col-md-5 p {
+  color: #000000;
+  /* Black for classic look and contrast */
+  font-size: 1em;
+  /* Slightly larger than standard */
+}
+
+/* Warna & simbol '&' di antara nama mempelai */
+.row.text-center .col-md-5+div h1 {
+  color: #A594F9;
+  /* Medium Purple */
+  font-size: 2.5em;
+  /* Perbesar ukuran untuk membuat simbol lebih menonjol */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.text-center p.m-0.p-0.mb-3 {
+  margin: 0 auto;
+  /* Memusatkan paragraf secara horizontal */
+  padding: 0;
+  /* Menghapus padding jika ada */
+  margin-bottom: 1rem;
+  /* Margin bawah sesuai dengan mb-3 */
+  text-align: center;
+  /* Memusatkan teks di dalam paragraf */
+  max-width: 600px;
+  /* Lebar maksimum agar teks tidak terlalu lebar di layar lebar */
+}
+
+h1.font-dancing.m-0.p-0 {
+  font-size: 4rem !important;
+  /* Atur ukuran font sesuai kebutuhan, misalnya 3rem */
+  margin: 0;
+  /* Menghapus margin */
+  padding: 0;
+  /* Menghapus padding */
+  color: #A594F9;
+  /* Atur warna sesuai desain */
+  line-height: 1;
+  /* Menyelaraskan spasi antar baris jika ada */
+}
+
+.social-icon {
+  margin: 0 10px;
+  font-size: 1.5em; /* Ukuran ikon */
+  color: #A594F9; /* Warna ikon sesuai tema */
+  text-decoration: none; /* Hilangkan garis bawah */
+  transition: color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Tambahkan transisi pada bayangan */
+}
+
+.social-icon:hover {
+  color: #ffffff; /* Warna ikon berubah saat hover */
+  transform: scale(1.2); /* Perbesar ikon saat hover */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Bayangan saat hover */
+  transition: transform 0.3s ease, box-shadow 0.3s ease, color 0.3s ease; /* Pastikan transisi halus */
+}
+
+.social-icon:active {
+  transform: scale(1.1); /* Mengurangi sedikit saat di-klik */
+}
+
