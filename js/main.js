@@ -112,40 +112,44 @@ var nameMapping = {
   "Dendi": "Dendi",
   "Hasan": "Hasan",
   "Neng-Tya": "Neng Tya",
-    "Cecep": "Cecep",
-    "Endang": "Endang",
-    "Ilham": "Ilham",
-    "Okta": "Okta",
-    "Rosid": "Rosid",
-    "Irvani": "Irvani",
-    "Gilang": "Gilang",
-    "Meri": "Meri Hermawan",
-    "Indra": "Indra",
-    "Erik": "Erik",
-    "Rio": "Rio",
-    "Alif": "Alif",
-    "Nanan": "Nanan",
-    "Ramdan": "Ramdan",
-    "Candra": "Candra Saputra",
-    "Anggi": "Anggi Kusmawan",
-    "Sandi": "Sandi Muhammad",
-    "Fuji": "Fuji Fauziah",
-    "Bibin": "Bibin",
-    "Anwar": "Anwar",
-    "Rizma": "Rizma",
-    "Agung": "Agung Rinaldi",
-    "Ikba": "Ikba",
-    "Dika": "Dika",
-    "Nurul": "Nurul",
-    "Yani": "Yani",
-    "Acum": "Acum",
-    "Epeng": "Epeng",
-    "Asikin": "Asikin",
-    "Ikbal": "Ikbal",
-    "Robi": "Robi",
+  "Cecep": "Cecep",
+  "Endang": "Endang",
+  "Ilham": "Ilham",
+  "Okta": "Okta",
+  "Rosid": "Rosid",
+  "Irvani": "Irvani",
+  "Gilang": "Gilang",
+  "Meri": "Meri Hermawan",
+  "Indra": "Indra",
+  "Erik": "Erik",
+  "Rio": "Rio",
+  "Alif": "Alif",
+  "Nanan": "Nanan",
+  "Ramdan": "Ramdan",
+  "Candra": "Candra Saputra",
+  "Anggi": "Anggi Kusmawan",
+  "Sandi": "Sandi Muhammad",
+  "Fuji": "Fuji Fauziah",
+  "Bibin": "Bibin",
+  "Anwar": "Anwar",
+  "Rizma": "Rizma",
+  "Agung": "Agung Rinaldi",
+  "Ikba": "Ikba",
+  "Dika": "Dika",
+  "Nurul": "Nurul",
+  "Yani": "Yani",
+  "Acum": "Acum",
+  "Epeng": "Epeng",
+  "Asikin": "Asikin",
+  "Ikbal": "Ikbal",
+  "Robi": "Robi",
   "Bayu": "Bayu",
   "Hilmi": "Hilmi",
-  "rizal": "Rizal Kurniawan"
+  "Arif": "Arif",
+  "Irvani": "Irvani",
+  "Pak-Sukur": "Pak Sukur",
+  "Mas-Yoko": "Mas Yoko",
+  "Ipong": "Ipong"
 };
 
 
@@ -202,8 +206,8 @@ function submitRSVP(event) {
 
 document.addEventListener("DOMContentLoaded", function () {
   const modal = new bootstrap.Modal(document.getElementById('exampleModal'), {
-      backdrop: 'static',
-      keyboard: false,
+    backdrop: 'static',
+    keyboard: false,
   });
   modal.show();
 });
@@ -211,7 +215,7 @@ document.addEventListener("DOMContentLoaded", function () {
 function playAudio() {
   const audio = document.getElementById('lagu');
   if (audio) {
-      audio.play();
+    audio.play();
   }
 }
 
